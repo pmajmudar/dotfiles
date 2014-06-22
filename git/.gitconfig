@@ -1,0 +1,11 @@
+[user]
+	email = prash@growthintel.com
+	name = Prash Majmudar
+[color]
+        ui = true
+[push]
+        config = upstream
+[commit]
+        template = /home/prash/.gitmessage.txt
+[core]
+        editor = vi

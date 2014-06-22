@@ -1,0 +1,7 @@
+#Summary of commit
+
+
+# Description of what was done
+
+
+# JIRA ID and time logged
