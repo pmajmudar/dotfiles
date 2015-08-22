@@ -26,3 +26,10 @@ highlight ExtraWhiteSpace ctermbg=red
 " VIM command autocompletion menu
 set wildmenu
 
+" 2 is the option to always have a status line (at the bottom)
+set laststatus=2
+
+" Highlight search results
+set hlsearch
+
+set incsearch
