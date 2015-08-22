@@ -9,7 +9,7 @@ set softtabstop=4
 " Shiftwidth is 4 spaces - used for >> and << indentation
 set shiftwidth=4
 
-" Indentation is smart - use previous line
+" Indentation is smart - use previous lines indentation
 set autoindent
 
 " Show Line numbers in editor
@@ -32,4 +32,8 @@ set laststatus=2
 " Highlight search results
 set hlsearch
 
+" Search as you type
 set incsearch
+
+" Highlight the line your cursor is on
+set cursorline
