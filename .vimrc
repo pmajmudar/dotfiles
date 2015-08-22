@@ -1,30 +1,28 @@
 execute pathogen#infect()
 
-" TAB exapnded to spaces
+syntax on
+
+" TAB expanded to spaces (Python)
 set expandtab
 set softtabstop=4
 
-" Shiftwide is 4 spaces - used for >> and << and for indentation
-set sw=4
+" Shiftwidth is 4 spaces - used for >> and << indentation
+set shiftwidth=4
 
-" indentation copied from previous line
+" Indentation is smart - use previous line
 set autoindent
 
-" Show line numbers
+" Show Line numbers in editor
 set number
 
-" syntax highlighting for black background terminals
-set background=dark
-set t_Co=256
-colorscheme gen
-
-"set hlsearch
-
-" Highlight col 80 for PEP
+" Highlight the 81 column in gray
 highlight ColorColumn ctermbg=gray
 set colorcolumn=81
 
-" Highlight extra whitespace
+" Highlight extra whitespace in red
 highlight ExtraWhiteSpace ctermbg=red
 :match ExtraWhiteSpace /\s\+$/
+
+" VIM command autocompletion menu
+set wildmenu
 
